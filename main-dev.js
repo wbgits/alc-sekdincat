@@ -1,7 +1,7 @@
 /*<![CDATA[*/
 (()=>{
 	const dev_definition_lastestPackage = parseInt(window.lastest_package); // paket terakhir
-	const dev_definition_defaultPackage = parseInt(window.default_package); // paket terakhir
+	const dev_definition_defaultPackage = parseInt(window.default_package); 
 	const dev_definition_githubRepositoryName = window.github_repository_name;
 	const dev_definition_githubVersion = window.github_version;
 	const dev_activePackage = (()=>{
