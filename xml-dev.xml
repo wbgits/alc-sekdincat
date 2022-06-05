@@ -556,32 +556,34 @@
 				<div id='w-configs-wrapper'>
 					<div id='w-configs-sections'>
 						<b:section id='w-configs-general' name='CONFIGURATIONS' showaddelement='no'>
-<b:widget id='TextList1' locked='true' title='MEMBER' type='TextList' version='2' visible='true'>
+<b:widget id='TextList1' locked='true' title='MEMBER / NOMOR PESERTA' type='TextList' version='2' visible='true'>
   <b:widget-settings>
     <b:widget-setting name='item-0'>000000</b:widget-setting>
     <b:widget-setting name='shownum'/>
     <b:widget-setting name='sorting'>NONE</b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
-								<script>
-									window.members = [<b:loop values='data:items' var='item'>&quot;<data:item.jsEscaped/>&quot;,</b:loop>];
-								</script>
-							  </b:includable>
+	<script>
+		window.members = [<b:loop values='data:items' var='item'>&quot;<data:item.jsEscaped/>&quot;,</b:loop>];
+	</script>
+	</b:includable>
   <b:includable id='content'/>
 </b:widget>
-<b:widget id='LinkList1' locked='true' title='DEVELOPER' type='LinkList' version='2' visible='true'>
+<b:widget id='LinkList1' locked='true' title='KONFIGURASI' type='LinkList' version='2' visible='true'>
   <b:widget-settings>
-    <b:widget-setting name='text-12'>submit_data</b:widget-setting>
-    <b:widget-setting name='link-12'>tidak</b:widget-setting>
-    <b:widget-setting name='text-11'>github_repository_name</b:widget-setting>
-    <b:widget-setting name='link-11'>alc-sekdincat</b:widget-setting>
-	<b:widget-setting name='text-10'>lastest_package</b:widget-setting>
-    <b:widget-setting name='link-10'>2</b:widget-setting>
-    <b:widget-setting name='text-9'>default_package</b:widget-setting>
-    <b:widget-setting name='link-9'>1</b:widget-setting>
-    <b:widget-setting name='text-8'>github_version</b:widget-setting>
+    <b:widget-setting name='text-10'>default_package</b:widget-setting>
+    <b:widget-setting name='sorting'>NONE</b:widget-setting>
+    <b:widget-setting name='link-1'>65</b:widget-setting>
+    <b:widget-setting name='link-2'>80</b:widget-setting>
+    <b:widget-setting name='link-12'>alc-sekdincat</b:widget-setting>
+    <b:widget-setting name='link-0'>100</b:widget-setting>
+    <b:widget-setting name='link-11'>2</b:widget-setting>
+    <b:widget-setting name='link-10'>1</b:widget-setting>
+    <b:widget-setting name='text-9'>github_version</b:widget-setting>
+    <b:widget-setting name='link-9'>0.1.0</b:widget-setting>
+    <b:widget-setting name='text-8'>aktifkan</b:widget-setting>
     <b:widget-setting name='link-7'>ya</b:widget-setting>
-    <b:widget-setting name='link-8'>0.1.0</b:widget-setting>
+    <b:widget-setting name='link-8'>ya</b:widget-setting>
     <b:widget-setting name='link-5'>35</b:widget-setting>
     <b:widget-setting name='link-6'>45</b:widget-setting>
     <b:widget-setting name='link-3'>166</b:widget-setting>
@@ -592,12 +594,10 @@
     <b:widget-setting name='text-2'>ambang_batas_tiu</b:widget-setting>
     <b:widget-setting name='text-5'>jumlah_soal_tiu</b:widget-setting>
     <b:widget-setting name='text-4'>jumlah_soal_twk</b:widget-setting>
-    <b:widget-setting name='text-7'>aktifkan</b:widget-setting>
+    <b:widget-setting name='text-7'>submit_data</b:widget-setting>
     <b:widget-setting name='text-6'>jumlah_soal_tkp</b:widget-setting>
-    <b:widget-setting name='sorting'>NONE</b:widget-setting>
-    <b:widget-setting name='link-1'>65</b:widget-setting>
-    <b:widget-setting name='link-2'>80</b:widget-setting>
-    <b:widget-setting name='link-0'>100</b:widget-setting>
+    <b:widget-setting name='text-11'>lastest_package</b:widget-setting>
+    <b:widget-setting name='text-12'>github_repository_name</b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
 								    <script>
